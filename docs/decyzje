@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget Planner — Decyzje architektoniczne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Budget Planner</h1>
+    <p>Decyzje architektoniczne</p>
+  </header>
+
+  <nav>
+    <a href="index.html">O projekcie</a>
+    <a href="decyzje.html" class="active">Decyzje architektoniczne</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Architektura systemu</h2>
+    </section>
+
+    <section>
+      <h2>Backend</h2>
+    </section>
+
+    <section>
+      <h2>Frontend</h2>
+    </section>
+
+      <section>
+      <h2>Testy</h2>
+    </section>
+  
+    <section>
+      <h2>Bezpieczeństwo i zarządzanie</h2>
+    </section>
