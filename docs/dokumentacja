@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget Planner — Dokumentacja techniczna</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="budgeticon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+  <header>
+    <h1>Budget Planner</h1>
+    <p>Strona zawiera opis systemu, jego założeń, strukturę techniczną<br>oraz instrukcje uruchomienia projektu w środowisku deweloperskim.</p>
+  </header>
+
+<nav>
+  <a href="index.html">O projekcie</a>
+  <a href="decyzje.html">Decyzje architektoniczne</a>
+  <a href="eventstorming.html">Event storming</a>
+  <a href="backlog.html">Backlog i estymacja zadań</a>
+  <a href="dokumentacja.html" class="active">Dokumentacja techniczna</a>
+</nav>
+
+  <main>
+    <section>
+      <h2>Link do tablicy</h2>
+    </section>
+    <section>
+      <h2>wnioski</h2>
+    </section>
+  </main>
+</body>
