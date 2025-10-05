@@ -1,78 +1,116 @@
+
+:root {
+  --bg-color: #0d1117;
+  --text-color: #e6edf3;
+  --nav-bg: #161b22;
+  --accent-color: #1f6feb;
+  --accent-light: #2a7ae4;
+}
+
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   margin: 0;
-  background-color: #f7f9fb;
-  color: #222;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
 header {
-  background-color: #4b9f6b;
+  background-color: var(--accent-color);
   color: white;
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
 nav {
-  background-color: #e5f1ea;
+  background-color: var(--nav-bg);
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 25px;
   text-decoration: none;
-  color: #2d6a4f;
-  font-weight: bold;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: var(--accent-light);
 }
 
 main {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 0 20px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 25px;
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 section h2 {
-  border-left: 6px solid #4b9f6b;
-  padding-left: 10px;
-  color: #2d6a4f;
+  border-left: 5px solid var(--accent-color);
+  padding-left: 12px;
+  margin-bottom: 20px;
+  color: var(--accent-light);
 }
+
+section p {
+  font-size: 1rem;
+}
+
 
 ul {
   list-style-type: square;
-  margin-left: 20px;
+  margin-left: 25px;
+  line-height: 1.8;
 }
+
 
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
 }
 
 th, td {
-  border: 1px solid #aaa;
-  padding: 8px;
-  text-align: left;
+  border: 1px solid #30363d;
+  padding: 10px 15px;
 }
 
 th {
-  background-color: #dff5e1;
+  background-color: #161b22;
+  color: var(--accent-light);
 }
 
+
 footer {
-  background-color: #4b9f6b;
-  color: white;
+  background-color: var(--nav-bg);
   text-align: center;
-  padding: 15px;
+  padding: 25px;
+  font-size: 0.9rem;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+}
+
+
+section p, li, table {
+  margin-top: 10px;
 }
 
