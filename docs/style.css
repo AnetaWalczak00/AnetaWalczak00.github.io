@@ -1,14 +1,14 @@
 :root{
-  --bg:#0b0f14;
-  --surface:#11161d;
-  --surface-2:#0e141a;
-  --text:#e9edf2;
-  --muted:#aab3bf;
-  --border:rgba(255,255,255,.08);
-  --ring:#8bd3ff;
-  --accent:#7ae0b8;
-  --accent-2:#8bd3ff;
-  --accent-hover:#9ff0c9;
+  --bg:#0f1210;
+  --surface:#131713;
+  --surface-2:#0e120f;
+  --text:#f3f2ec;
+  --muted:#b9b6a9;
+  --border:rgba(243,242,236,.08);
+  --ring:#b6ea7a;
+  --accent:#d0b37f;
+  --accent-2:#9edb87;
+  --accent-hover:#e3c995;
   --shadow:0 10px 30px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
 }
 
@@ -19,8 +19,8 @@ html,body{margin:0;padding:0}
 body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Inter", "Raleway", Arial, sans-serif;
   background:
-    radial-gradient(1200px 800px at 10% -10%, rgba(139,211,255,.18), transparent 60%),
-    radial-gradient(900px 600px at 100% 0%, rgba(122,224,184,.14), transparent 50%),
+    radial-gradient(1200px 800px at 10% -10%, rgba(208,179,127,.18), transparent 60%),
+    radial-gradient(900px 600px at 100% 0%, rgba(158,219,135,.14), transparent 50%),
     var(--bg);
   color:var(--text);
   line-height:1.7;
@@ -55,7 +55,7 @@ header{
 
 header h1{
   margin:0 0 12px;
-  font-size:clamp(2rem, 3.2vw, 3rem);
+  font-size:clamp(1.8rem, 2.6vw, 2.4rem);
   letter-spacing:.2px;
   font-weight:800;
 }
@@ -107,7 +107,7 @@ section:first-of-type{ margin-top:20px }
 section h2{
   margin:0 0 18px;
   color:var(--accent);
-  font-size:clamp(1.4rem, 2vw, 1.8rem);
+  font-size:clamp(1.15rem, 1.6vw, 1.35rem);
   display:flex; align-items:center; gap:12px;
   font-weight:800;
 }
@@ -154,7 +154,7 @@ tr:hover td{
   background:rgba(255,255,255,.03);
 }
 
-.links{
+links{
   list-style:none;
   padding:0; margin:0;
   display:flex; flex-direction:column; gap:12px;
@@ -179,7 +179,7 @@ tr:hover td{
 .link-pill:hover{
   transform:translateY(-2px);
   background:
-    linear-gradient(180deg, rgba(122,224,184,.08), rgba(139,211,255,.06)),
+    linear-gradient(180deg, rgba(208,179,127,.08), rgba(158,219,135,.06)),
     var(--surface);
   border-color:color-mix(in oklab, var(--accent) 30%, var(--border));
   box-shadow:0 12px 28px rgba(0,0,0,.35);
@@ -196,7 +196,6 @@ footer{
   -webkit-backdrop-filter:saturate(140%) blur(6px);
 }
 
-/* Przyjemniejsze animacje dla osób z reduce motion */
 @media (prefers-reduced-motion: reduce){
   *{ transition:none !important; animation:none !important }
 }
