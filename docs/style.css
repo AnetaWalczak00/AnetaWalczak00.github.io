@@ -12,22 +12,6 @@
   --shadow:0 10px 30px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
 }
 
-@media (prefers-color-scheme: light){
-  :root{
-    --bg:#f6f7fb;
-    --surface:#ffffff;
-    --surface-2:#f3f5f9;
-    --text:#0e1320;
-    --muted:#556070;
-    --border:rgba(0,0,0,.08);
-    --ring:#2563eb;
-    --accent:#2563eb;
-    --accent-2:#10b981;
-    --accent-hover:#1f72ff;
-    --shadow:0 10px 30px rgba(17,24,39,.08), inset 0 1px 0 rgba(255,255,255,.6);
-  }
-}
-
 *{box-sizing:border-box}
 
 html,body{margin:0;padding:0}
