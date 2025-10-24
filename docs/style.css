@@ -1,12 +1,12 @@
 :root {
-  --bg: #2d3250;
-  --panel: #424769;
-  --panel-soft: #3b4160;
-  --text: #f5f7fb;
-  --muted: #c9cbd6;
-  --border: #595f7d;
-  --accent: #f9b17a;
-  --accent-hover: #ffbe8c;
+  --bg: #272C3C;
+  --panel: #494F61;
+  --panel-soft: #3a3f52;
+  --text: #FFFFFF;
+  --muted: #d1d2d7;
+  --border: #5b6072;
+  --accent: #EAC278;
+  --accent-hover: #f0d09a;
 }
 
 * {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 header {
-  background: linear-gradient(180deg, #2a2f4a 0%, #2d3250 100%);
+  background: linear-gradient(180deg, #2b3042 0%, #272C3C 100%);
   color: var(--text);
   text-align: center;
   padding: 64px 20px;
@@ -152,7 +152,7 @@ th {
 }
 
 tr:hover td {
-  background: #353a59;
+  background: #3a3f52;
 }
 
 .links {
@@ -175,7 +175,7 @@ tr:hover td {
   gap: 12px;
   padding: 14px 16px;
   border-radius: 14px;
-  background: linear-gradient(180deg, #3b4160 0%, #343a58 100%);
+  background: linear-gradient(180deg, #3f4457 0%, #353a4c 100%);
   border: 1px solid var(--border);
   transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
 }
@@ -191,7 +191,7 @@ tr:hover td {
 
 .link-pill:hover {
   transform: translateY(-1px);
-  background: linear-gradient(180deg, #41466a 0%, #3a4063 100%);
+  background: linear-gradient(180deg, #454a5f 0%, #3a3f52 100%);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
 
