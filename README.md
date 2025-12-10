@@ -17,7 +17,7 @@ Projekt realizowany jest w ramach przedmiotu **PPSI II oraz WDZPD**.
 
 - **Frontend:** Next.js, React  
 - **Backend:** C#, .NET  
-- **Baza danych:**  
+- **Baza danych:** PostgreSQL
 - **Projekt graficzny:** Figma  
 - **Kontrola wersji:** Git, GitHub  
 - **Zarządzanie projektem:** Jira  
