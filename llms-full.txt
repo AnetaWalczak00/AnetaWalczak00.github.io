@@ -1,0 +1,204 @@
+# Backlog i estymacja zadań
+
+
+
+## Podsumowania i wnioski
+
+
+# Decyzje architektoniczne
+
+
+
+## Architektura systemu
+
+<br />
+
+## Backend
+
+<br />
+
+## Frontend
+
+<br />
+
+## Testy
+
+<br />
+
+## Bezpieczeństwo i zarządzanie
+
+<br />
+
+<br />
+
+## Code Block
+
+```js
+console.log('Hello World');
+```
+
+## Cards
+
+<Cards>
+  <Card title="Learn more about Next.js" href="https://nextjs.org/docs" />
+
+  <Card title="Learn more about Fumadocs" href="https://fumadocs.dev" />
+</Cards>
+
+
+# Dokumentacja techniczna
+
+
+
+## Dokumentacja
+
+
+# Event storming
+
+
+
+import { Steps, Step } from "fumadocs-ui/components/steps";
+
+<span style={{ color: "#eac278" }}><b>Data i czas trwania sesji:</b></span> 24.10.2025, 2h <br />
+Do przeprowadzenia sesji Event Stormingu nasz zespół wykorzystał narzędzie [Miro](https://miro.com/app/board/uXjVJ0gt-w0=/)
+
+## Architektura systemu
+
+<Steps>
+  <Step>
+    ## Cele i przebieg sesji
+
+    Celem spotkania było zrozumienie procesów biznesowych systemu oraz identyfikacja zdarzeń domenowych, które występują w systemie.<br /><br />
+    Ustaliliśmy wspólną wizję działania aplikacji oraz zidentyfikowaliśmy główne procesy z punktu widzenia użytkownika.<br /><br />
+    Sesja odbyła się w formie warsztatowej – każdy członek zespołu wnosił swoje pomysły i obserwacje.
+  </Step>
+
+  <Step>
+    ## Kluczowe ustalenia
+
+    Zakres prac, jakie należy wykonać w ramach pracy nad systemem, ustaliliśmy poprzez identyfikację:<br /><br />
+
+    1. <span style={{ color: "#eac278" }}><b>Zdarzeń domenowych (Domain Events)</b></span> – opisujących zmiany stanu systemu wynikające z działań użytkownika lub systemu;<br />
+
+    2. <span style={{ color: "#eac278" }}><b>Aktorów (Actors)</b></span> – osoby i systemy inicjujące zdarzenia;<br />
+
+    3. <span style={{ color: "#eac278" }}><b>Agregatów (Aggregates)</b></span> – jednostki danych i obiekty domeny;<br />
+
+    4. <span style={{ color: "#eac278" }}><b>Widoków (Views)</b></span> – interfejs od strony użytkownika;<br />
+
+    5. <span style={{ color: "#eac278" }}><b>Systemów zewnętrznych (External Systems)</b></span> – inne aplikacje i usługi, z którymi system się komunikuje;<br />
+
+    6. <span style={{ color: "#eac278" }}><b>Notatek (Insights)</b></span> – spis dodatkowych uwag, pomysłów i pytań, które pojawiły się w trakcie sesji.
+  </Step>
+
+  <Step>
+    ## Problemy
+
+    Nie zidentyfikowaliśmy większych trudności w procesie przeprowadzania sesji Event Stormingu poza poniższymi:
+
+    1. <span style={{ color: "#eac278" }}><b>Organizacja</b></span> – trudności z ustaleniem terminu spotkania odpowiadającego wszystkim członkom zespołu;<br />
+
+    2. <span style={{ color: "#eac278" }}><b>Intensywność</b></span> – sesja trwająca nieprzerwanie 2 godziny (w godzinach wieczornych, po dniu pełnym innych obowiązków) wpływała na spadek koncentracji i efektywności pracy;<br />
+
+    3. <span style={{ color: "#eac278" }}><b>Brak doświadczenia z metodą</b></span> – część zespołu, niemająca wcześniejszego kontaktu z Event Stormingiem, początkowo miała trudności w zrozumieniu zasad jego przeprowadzania.<br />
+  </Step>
+
+  <Step>
+    ## Spostrzeżenia i wnioski
+
+    Ogólny odbiór przeprowadzania sesji Event Stormingu przez nasz zespół był bardzo pozytywny. W stosunkowo krótkim czasie udało nam się ustalić pełny zakres funkcjonalności, jakie należy zaimplementować.
+
+    Pomocna okazała się wstępnie stworzona makieta, która stanowiła bazę i pomogła zwizualizować proces przez wszystkich członków zespołu.
+
+    Utworzenie notatek pozwoliło na sformułowanie kwestii, które wymagają dalszego przemyślenia, sugerują konieczność naniesienia poprawek (na makietę i dokumentację) oraz takich, które były rozumiane przez poszczególnych członków zespołu w różny sposób, aby ustalić wspólną wersję.
+
+    Sesja Event Stormingu pozwoliła również zwrócić uwagę na mniej oczywiste ścieżki użytkownika (tzw. edge cases). Brak takiej analizy mógłby spowodować ich identyfikację dopiero na późniejszych etapach projektu, co wiązałoby się z większym nakładem pracy i ryzykiem błędów.
+  </Step>
+
+  <Step>
+    ## Dalsze kroki
+
+    1. Przeniesienie wyników z tablicy Event Stormingu do backlogu (Jira) w formie nowych zadań;<br />
+    2. Rozszerzenie dokumentacji biznesowej o szczegółowy opis akcji użytkownika w celu ułatwienia implementacji;
+    3. Udoskonalenie makiet, które pomogą zespołowi frontendowemu w wizualizacji i implementacji interfejsu;
+    4. Doprecyzowanie logiki komunikacji między frontendem a backendem w oparciu o zidentyfikowane zdarzenia.
+  </Step>
+</Steps>
+
+
+# O projekcie
+
+
+
+import { TypeTable } from "fumadocs-ui/components/type-table";
+
+## Opis projektu
+
+<span style={{ color: "#eac278" }}><b>BALANCR</b></span> to aplikacja internetowa umożliwiająca użytkownikom planowanie, monitorowanie i analizowanie domowego budżetu w przystępny i nowoczesny sposób.
+
+## Technologie
+
+* <span style={{ color: "#eac278" }}><b>Frontend:</b></span> Next.js + React
+* <span style={{ color: "#eac278" }}><b>Backend:</b></span> C# + .NET
+* <span style={{ color: "#eac278" }}><b>Baza danych:</b></span> do ustalenia
+* <span style={{ color: "#eac278" }}><b>Projekt graficzny:</b></span> Figma
+* <span style={{ color: "#eac278" }}><b>Kontrola wersji:</b></span> Git + GitHub
+* <span style={{ color: "#eac278" }}><b>Zarządzanie projektem:</b></span> Jira
+* <span style={{ color: "#eac278" }}><b>Hosting strony - dokumentacja:</b></span> GitHub Pages
+
+## Zespół projektowy
+
+<Tabs items={['Frontend', 'Backend', 'Testy', 'Role dodatkowe']}>
+  <Tab value="Frontend">
+    Aneta Walczak
+  </Tab>
+
+  <Tab value="Frontend">
+    Władysław Rogowski
+  </Tab>
+
+  <Tab value="Backend">
+    Anna Trybel
+  </Tab>
+
+  <Tab value="Backend">
+    Dawid Nowak
+  </Tab>
+
+  <Tab value="Testy">
+    Krzysztof Sułkowski
+  </Tab>
+
+  <Tab value="Role dodatkowe">
+    <b>Lider projektu</b>
+
+     \- Krzysztof Sułkowski
+  </Tab>
+
+  <Tab value="Role dodatkowe">
+    <b>Project Manager</b>
+
+     \- cały zespół
+  </Tab>
+
+  <Tab value="Role dodatkowe">
+    <b>Inżynier DevOps</b>
+
+     \- cały zespół
+  </Tab>
+</Tabs>
+
+## Linki projektu
+
+* **<span style={{ color: "#eac278" }}>Repozytorium Backend:</span>** [GitHub – Backend](https://github.com/krzysztofsulkowski/pipsi2-backend)
+* **<span style={{ color: "#eac278" }}>Repozytorium Frontend:</span>** [GitHub – Frontend](https://github.com/krzysztofsulkowski/pipsi2-frontend)
+* **<span style={{ color: "#eac278" }}>Makieta projektu:</span>** [Figma](https://www.figma.com/design/i4AmJBKghINMuIltSP19OR/PIPSI-II---bud%C5%BCet-domowy?node-id=0-1\&p=f\&t=maIEwZ5fE3UWegnD-0)
+* **<span style={{ color: "#eac278" }}>Dokumentacja biznesowa:</span>** [Confluence](https://budgetmaster.atlassian.net/wiki/external/NWY1N2FiZTkyNjdhNDRlYjkxZWJkYmRmNjE2ZWZjYTM)
+* **<span style={{ color: "#eac278" }}>Zarządzanie zadaniami:</span>** [Jira](https://budgetsystem.atlassian.net/jira/software/projects/KAN/summary)
+* **<span style={{ color: "#eac278" }}>Dokumentacja (repozytorium):</span>** [GitHub](https://github.com/AnetaWalczak00/AnetaWalczak00.github.io/tree/main)
+
+## Kontakt
+
+W razie pytań prosimy o kontakt z liderem projektu: <b>[krzysztof.sulkowski@studenci.collegiumwitelona.pl](mailto:krzysztof.sulkowski@studenci.collegiumwitelona.pl)</b>
+
+<br />

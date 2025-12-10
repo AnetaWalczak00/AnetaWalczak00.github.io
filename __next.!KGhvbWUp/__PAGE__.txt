@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/5fcca87ee6550ff3.js","/_next/static/chunks/868e41d723c69152.js","/_next/static/chunks/26d47d56860e9671.js","/_next/static/chunks/8ae3c817221c782b.js","/_next/static/chunks/2c7705ab65171767.js"],""]
+3:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/dbbcd0760a09d374.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"rdzyHViHgz02fWW8P9Dwr","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col justify-center text-center flex-1","children":[["$","h1",null,{"className":"text-2xl font-bold mb-4","children":"BALANCR"}],["$","p",null,{"children":["Projekt systemu internetowego na zaliczenie przedmiotu PPSI II i WDZPD – System zarządzania domowym budżetem.",["$","br",null,{}],"Przejdź do "," ",["$","$L2",null,{"href":"/docs","className":"font-medium underline","children":"/dokumentacji"}]," ",",aby w pełni zapoznać się z naszym projektem."]}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
